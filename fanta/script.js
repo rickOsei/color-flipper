@@ -1,5 +1,5 @@
 const biggie = document.getElementById("biggie");
-const button = document.getElementsByClassName("btn");
+const button = document.getElementsByClassName("nav-btn");
 const logo = document.getElementById("logo");
 
 const src = [
@@ -132,21 +132,11 @@ strawberry.addEventListener("animationend", () => {
   logo.classList.remove("rotate");
 });
 
-// strawberry.addEventListener("animationstart", () => {
-//   biggie.classList.add("moveIn");
-//   logo.classList.add("rotate");
-// });
-
 // berry animation start and end
 berry.addEventListener("animationend", () => {
   biggie.classList.remove("moveIn");
   logo.classList.remove("rotate");
 });
-
-// berry.addEventListener("animationstart", () => {
-//   biggie.classList.add("moveIn");
-//   logo.classList.add("rotate");
-// });
 
 // grape animation start and end
 grape.addEventListener("animationend", () => {
@@ -154,21 +144,11 @@ grape.addEventListener("animationend", () => {
   logo.classList.remove("rotate");
 });
 
-// grape.addEventListener("animationstart", () => {
-//   biggie.classList.add("moveIn");
-//   logo.classList.add("rotate");
-// });
-
 // greenApple animation start and end
 greenApple.addEventListener("animationend", () => {
   biggie.classList.remove("moveIn");
   logo.classList.remove("rotate");
 });
-
-// greenApple.addEventListener("animationstart", () => {
-//   biggie.classList.add("moveIn");
-//   logo.classList.add("rotate");
-// });
 
 // Mango animation start and end
 mango.addEventListener("animationend", () => {
@@ -176,10 +156,7 @@ mango.addEventListener("animationend", () => {
   logo.classList.remove("rotate");
 });
 
-// greenApple.addEventListener("animationstart", () => {
-//   biggie.classList.add("moveIn");
-//   logo.classList.add("rotate");
-// });
+// Reloading page
 
 logo.addEventListener("click", () => {
   window.location.reload();
